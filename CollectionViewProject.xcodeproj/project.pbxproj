@@ -13,6 +13,7 @@
 		D308545E278627F300895EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308545C278627F300895EB4 /* Main.storyboard */; };
 		D3085460278627F400895EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308545F278627F400895EB4 /* Assets.xcassets */; };
 		D3085463278627F400895EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3085461278627F400895EB4 /* LaunchScreen.storyboard */; };
+		D32D25E427863ED900E2420B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D25E327863ED800E2420B /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D308545F278627F400895EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3085462278627F400895EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3085464278627F400895EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32D25E327863ED800E2420B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D308545F278627F400895EB4 /* Assets.xcassets */,
 				D3085461278627F400895EB4 /* LaunchScreen.storyboard */,
 				D3085464278627F400895EB4 /* Info.plist */,
+				D32D25E327863ED800E2420B /* PhotoCollectionViewCell.swift */,
 			);
 			path = CollectionViewProject;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D308545B278627F300895EB4 /* ViewController.swift in Sources */,
+				D32D25E427863ED900E2420B /* PhotoCollectionViewCell.swift in Sources */,
 				D3085457278627F300895EB4 /* AppDelegate.swift in Sources */,
 				D3085459278627F300895EB4 /* SceneDelegate.swift in Sources */,
 			);
